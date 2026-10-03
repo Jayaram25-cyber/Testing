@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-family: "Inter", sans-serif; */
+            font-family: "Space Grotesk", sans-serif;
+        }
+
+        #header-tab {
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            background-color: #713600;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo h1 {
+            color: #FDFBD4;
+        }
+
+        #nav-menu {
+            display: flex;
+            align-items: center;
+            list-style: none;
+
+        }
+
+        #nav-menu li a {
+            text-decoration: none;
+            padding: 20px;
+            font-size: 20px;
+            color: #FDFBD4;
+        }
+
+        #contact-btn {
+            width: 100px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: #C05800;
+            border: none;
+        }
+
+        #contact-btn a {
+            text-decoration: none;
+            padding: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            color: #FDFBD4;
+        }
+
+        /* ------------------------------------------------------ */
+        #contact-hero {
+            background-color: #FDFBD4;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        #hero-img img {
+            width: 500px;
+            height: 500px;
+            /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+            margin-top: 40px;
+        }
+
+        #cont-form {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        #cont-form h2 {
+            font-size: 40px;
+            display: block;
+            text-align: center;
+            font-family: "Space Grotesk", sans-serif;
+        }
+
+        #contact-form {
+            width: 500px;
+            background-color: rgb(241, 238, 208);
+            height: 550px;
+            border-radius: 20px;
+            margin-top: 40px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        #label-id {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        #cont-form input {
+            width: 100%;
+            height: 40px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            font-size: 1rem;
+            padding: 12px 16px;
+            line-height: 1.5;
+        }
+
+        #sub-btn {
+            margin-top: 20px;
+            width: 50%;
+            background-color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        #sub-btn a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #back {
+            width: 30%;
+            background-color: white;
+            padding: 10px;
+            margin-top: 8px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #footer-tab {
+            width: 100%;
+            background-color: #713600;
+            padding: 20px;
+        }
+
+        #footer-text {
+            color: #FDFBD4;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header-tab">
+        <div id="logo">
+            <h1>J M</h1>
+        </div>
+        <div id="nav-menu">
+            <li><a href="">ABOUT</a></li>
+            <li><a href="./projects.html">PROJECTS</a></li>
+            <li><a href="">SKILLS</a></li>
+        </div>
+        <div id="contact">
+            <button id="contact-btn"><a href="">Contact</a></button>
+        </div>
+    </header>
+
+    <section id="contact-hero">
+        <div id="hero-img">
+            <img src="./Firefly_RemoveBackground.png" alt="">
+        </div>
+        <div id="contact-form">
+            <form action="#" id="cont-form">
+                <h2>Contact Me</h2>
+                <label for="Name" id="label-id"> Name</label>
+                <input type="text" id="Name">
+
+                <label for="Email" id="label-id"> Email</label>
+                <input type="email" id="Name">
+
+                <label for="Name" id="label-id">Message</label>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+
+                <button id="sub-btn"><a href="">Submit</a></button>
+                <a href="./index.html" id="back">Back to Home</a>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer-tab">
+        <div>
+            <p id="footer-text">© 2026 Jayaram. Designed & built with care.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-family: "Inter", sans-serif; */
+            font-family: "Space Grotesk", sans-serif;
+        }
+
+        #header-tab {
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            /* background-color: #FDFBD4; */
+            background-color: #713600;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo h1 {
+            color: #FDFBD4;
+            /* Cream */
+        }
+
+        #nav-menu {
+            display: flex;
+            align-items: center;
+            list-style: none;
+
+        }
+
+        #nav-menu li a {
+            text-decoration: none;
+            padding: 20px;
+            font-size: 20px;
+            /* color: #713600; */
+            color: #FDFBD4;
+        }
+
+        #contact-btn {
+            width: 100px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: #C05800;
+            border: none;
+        }
+
+        #contact-btn a {
+            text-decoration: none;
+            padding: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            color: #FDFBD4;
+        }
+
+        /* ---------------------------------------------------------- */
+
+        #projects-hero {
+            background-color: #FDFBD4;
+            width: 100%;
+            height: 100vh;
+
+        }
+
+        #proj-title {
+            display: block;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 40px;
+            color: #38240D;
+        }
+
+        .projects-cards {
+            width: 80%;
+            /* background-color: red; */
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .card {
+            width: 300px;
+            /* height: 400px; */
+            height: 100%;
+            margin: 10px;
+            /* background-color: blue; */
+            border-radius: 20px;
+            border: 2px solid #713600;
+        }
+
+        #card-img {
+            width: 250px;
+            border-radius: 20px;
+        }
+
+        .card-head {
+            display: block;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        #card-title {
+            padding-bottom: 10px;
+        }
+
+        #footer-tab {
+            width: 100%;
+            background-color: #713600;
+            padding: 20px;
+        }
+
+        #footer-text {
+            color: #FDFBD4;
+        }
+        #proj-back{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            align-items: center;
+        
+        }
+        #proj-back a {
+            width: 150px;
+            height: 100%;
+            background-color: white;
+            padding: 15px;
+            text-decoration: none;
+            color: #38240D;
+            border: 2px solid #713600;
+            border-radius: 30px;
+            font-weight: bold;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header-tab">
+        <div id="logo">
+            <h1>J M</h1>
+        </div>
+        <div id="nav-menu">
+            <li><a href="./index.html">ABOUT</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="./index.html">SKILLS</a></li>
+        </div>
+        <div id="contact">
+            <button id="contact-btn"><a href="">Contact</a></button>
+        </div>
+    </header>
+
+    <section id="projects-hero">
+        <div id="proj-title">
+            <h1 id="title">Featured Projects</h1>
+        </div>
+        <div class="projects-cards">
+            <div class="card">
+                <div class="card-head">
+                    <img src="./yusuf-onuk-0x1wfyHBgYg-unsplash.jpg" alt="" id="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 id="card-title">Project title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, atque facere laborum
+                        blanditiis totam voluptates harum quae aliquid quisquam? Iusto.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rerum veritatis similique!
+                        Obcaecati at illo quas sint veritatis eum iste?</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <img src="./yusuf-onuk-0x1wfyHBgYg-unsplash.jpg" alt="" id="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 id="card-title">Project title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, atque facere laborum
+                        blanditiis totam voluptates harum quae aliquid quisquam? Iusto.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rerum veritatis similique!
+                        Obcaecati at illo quas sint veritatis eum iste?</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <img src="./yusuf-onuk-0x1wfyHBgYg-unsplash.jpg" alt="" id="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 id="card-title">Project title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, atque facere laborum
+                        blanditiis totam voluptates harum quae aliquid quisquam? Iusto.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rerum veritatis similique!
+                        Obcaecati at illo quas sint veritatis eum iste?</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="proj-back">
+           <a href="./index.html">Back to Home</a>
+        </div>
+    </section>
+    <footer id="footer-tab">
+        <div>
+            <p id="footer-text">© 2026 Jayaram. Designed & built with care.</p>
+        </div>
+    </footer>
+</body>
+</html>
